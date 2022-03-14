@@ -1,0 +1,55 @@
+.header{
+
+    background-color: #CCC;
+   
+}
+
+
+@media (max-width: 575.98px) {
+    .h1{
+    font-size: 2,4;
+    }
+    .p{
+    font-size: 1.2rem;
+    }
+    #flor{
+    max-width: 10%;
+}
+}
+
+#seccion1 {
+    padding: 0 5rem;
+}
+
+
+@media (min-width: 576px) {
+    .header{
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header{
+        background-color: red;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .header{
+        background-color: green;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .header{
+        background-color: orange;
+    }
+
+}
+
+
+
+
+
